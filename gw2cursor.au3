@@ -57,7 +57,7 @@ EndIf
 ; Check for updates
 If $autoUpdate == "true" Then
    TraySetToolTip("GW2-Cursor -- Checking for updates, please wait...")
-   Local $remoteVersion = HttpGet("https://raw.github.com/fritzw/gw2-cursor/master/version.txt")
+   Local $remoteVersion = HttpGet("https://raw.github.com/fritzw/gw2-cursor/master/Version.txt")
    If $remoteVersion <> "" And _VersionCompare($remoteVersion, $version) > 0 Then
 	  If MsgBox(4 + 64, "GW2-Cursor", "An update to version " & $remoteVersion & " is available. You are currently running version " & $version & ". Do you want to go to the website now?") == 6 Then
 		 ShellExecute($websiteUrl)
