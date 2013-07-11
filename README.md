@@ -48,3 +48,6 @@ How can I contact you?
 ----------------------
 
 Just send an in-game mail to Baumkeks. Or you could contact me [on Reddit](http://www.reddit.com/user/blamestar/).
+
+[withoutOverlay]: https://raw.github.com/fritzw/gw2-cursor/master/screenshot1.jpg "Without overlay: Cursor in stealth mode"
+[withOverlay]: https://raw.github.com/fritzw/gw2-cursor/master/screenshot2.jpg "With overlay: Cursor visible"
