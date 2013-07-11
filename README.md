@@ -21,6 +21,19 @@ Basically the black cursor you see is just a semi-transparent, arrow-shaped, cli
 This approach has the limitation that there is a slight delay. So when you move your mouse, the overlay cursor will always lag behind the real cursor a bit. You need to decide for yourself if this annoys you or not. For me it's okay because the overlay is very visible while the default cursor is nearly invisible when you move it quickly, so I only see the overlay anyways.
 
 
+How can I download and install it?
+----------------------------------
+
+Installation isn't necessary. The script writes only in the directory where you put it, and when you delete it, it's gone.
+
+For downloading you basically have 3 options:
+
+* Download the [standalone `.exe` file](https://github.com/fritzw/gw2-cursor/raw/master/gw2cursor.exe). Just put it in a folder and run it.
+* Download the [whole repository as a zip file](https://github.com/fritzw/gw2-cursor/archive/master.zip) and run `gw2cursor.au3`. You need AutoIt3 installed for this to work, but you can view and change the source code.
+ * Technically you only need the following files: `gw2cursor.au3`, `Serialize.au3`, `cursor1.png`, `tray-icon.ico` (optional)
+* Clone the repository.
+
+
 Can I get banned for using it?
 ------------------------------
 
@@ -35,12 +48,3 @@ How can I contact you?
 ----------------------
 
 Just send an in-game mail to Baumkeks. Or you could contact me [on Reddit](http://www.reddit.com/user/blamestar/).
-
-
-Standalone Version
-------------------
-
-The `.exe` file is just the `.au3` source code file bundled with the cursor images and tray icon. You don't need AutoIt3 installed to run this version.
-
-[withoutOverlay]: https://raw.github.com/fritzw/gw2-cursor/master/screenshot1.jpg "Without overlay: Cursor in stealth mode"
-[withOverlay]: https://raw.github.com/fritzw/gw2-cursor/master/screenshot2.jpg "With overlay: Cursor visible"
