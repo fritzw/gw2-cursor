@@ -20,6 +20,8 @@ Basically the black cursor you see is just a semi-transparent, arrow-shaped, cli
 
 This approach has the limitation that there is a slight delay. So when you move your mouse, the overlay cursor will always lag behind the real cursor a bit. You need to decide for yourself if this annoys you or not. For me it's okay because the overlay is very visible while the default cursor is nearly invisible when you move it quickly, so I only see the overlay anyways.
 
+**Note:** Since the cursor is just a window, it will **not** be visible in fullscreen mode, where all windows are hidden. You need to run the game in **windowed mode** or **windowed fullscreen mode** to see the cursor.
+
 
 How can I download and install it?
 ----------------------------------
